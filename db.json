@@ -1,70 +1,39 @@
 {
-  "events": [
+  "soups": [
     {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Kat Laydee"
-    },
-    {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "petsAllowed": true,
-      "organizer": "Fern Pollin"
-    },
-    {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Carey Wales"
-    },
-    {
-      "id": 1001,
-      "category": "animal welfare",
-      "title": "Dog Adoption Day",
-      "description": "Find your new canine friend at this event.",
-      "location": "Woof Town",
-      "date": "August 28, 2022",
-      "time": "12:00",
-      "petsAllowed": true,
-      "organizer": "Dawg Dahd"
-    },
-    {
-      "id": 1002,
-      "category": "food",
-      "title": "Canned Food Drive",
-      "description": "Bring your canned food to donate to those in need.",
-      "location": "Tin City",
-      "date": "September 14, 2022",
-      "time": "3:00",
-      "petsAllowed": true,
-      "organizer": "Kahn Opiner"
-    },
-    {
-      "id": 1003,
-      "category": "sustainability",
-      "title": "Highway Cleanup",
-      "description": "Help pick up trash along the highway.",
-      "location": "Highway 50",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "petsAllowed": false,
-      "organizer": "Brody Kill"
+      "id": 1,
+      "title": "Tha Curry",
+      "subtitle": "Bio-Gemüseeintopf asiatischer Art",
+      "description": "Hier kommt Asien auf den Tisch: Mit einer ordentlichen Portion Gemüse und typisch asiatischen Gewürzen wie Zitronengras und Koriander entführt Dich unser Bio-Gemüseeintopf in der Mittagspause nach Thailand. Unser veganes und glutenfreies Thai Curry besteht zu über 50 % Prozent aus bestem Bio-Gemüse. Geschmacksverstärker, Konservierungsmittel oder sonstige künstliche Zusatzstoffe sind natürlich tabu. Kartoffeln, grüne Bohnen, Erbsen und Paprika machen angenehm satt, so dass du keine zusätzliche Sättigungsbeilage benötigst. Ein Hauch Kokos sorgt für den asiatischen Feinschliff.",
+      "ingredients": ["Wasser", "17% Kartoffeln", "10% Karotten", "Traubensaft (aus Traubensaftkonzentrat)", "7% grüne Bohnen", "6% Zwiebeln", "6% Kokosmilch (Kokosnussextrakt, Wasser)", "6% Erbsen", "5% rote Paprika", "3% Kokosraspel", "Stärke", "Sojasauce (Wasser, SOJABOHNEN, Salz)", "Sonnenblumenöl", "Meersalz", "0,8% Currypulver", "Limettensaft", "Gewürze (Knoblauch, Kreuzkümmel, Zitronengras)", "Korianderblätter", "Verdickungsmittel (Guarkernmehl, Johannisbrotkernmehl)"],
+      "nutrition": [
+        {
+          "calorificValue": 360,
+          "protein": 1.6,
+          "carbohydrates": 8.6,
+          "therofSugar": 3.3,
+          "fat": 4.6,
+          "thereofFat": 3.0,
+          "dietaryFiber": 2.0,
+          "salt": 1.0
+        }
+      ],
+      "tag": ["vegan"],
+      "tags": [
+        {
+          "vegan": true,
+          "glutenFree": true,
+          "sugarFree": true,
+          "lactoseFree": true,
+          "natural": false,
+          "withoutAdditives": false
+        }
+      ],
+      "quantity": 3,
+      "price": 2.99,
+      "brand": "LittleLunch",
+      "image": "./assets/images/thai-curry.png",
+      "headerImage": "./assets/images/thai-curry-header.jpg"
     }
   ]
 }
